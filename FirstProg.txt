@@ -1,0 +1,11 @@
+	if(s[i].equalsIgnoreCase("AnUrag123")){
+				for(int j=0;j<s[i].length();j++){
+					System.out.println(s[i].charAt(j));
+				}
+			}
+			else if(s[i].equalsIgnoreCase("maDhura")){
+				for(int k=s[i].length()-1;k>=0;k--){
+					System.out.println(s[i].charAt(k));
+				}
+				
+			}
